@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,400&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+}
+.navbar{
+    padding: 1.5rem 4rem;
+    color: black;
+    background-color: cadetblue;
+}
+
+.gamecontainer{
+    background-color: cadetblue;
+    padding: 4rem 3rem;
+    border-radius: 20px;
+    min-width: 60vw;
+
+}
+
+.game{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    text-align: center;
+    margin: 30px 0;
+   
+}
+
+.scoring{
+    margin: 22px 0px;
+    font-size: 1.7rem;
+}
+
+.scoring > p{
+    margin: 10px 0;
+}
+
+.items{
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn{
+    background-color: white;
+    outline: 0;
+    border: 0;
+    padding: 1rem;
+    border-radius: 70%;
+    cursor: pointer;
+    
+}
+
+.btn>i {
+    font-size: 2rem;
+    } 
+
+.info{
+    margin: 30px 0;
+    font-size: 1.2rem;
+    font-style: italic;
+    text-align: center;
+}    
+
+#result{
+    margin: 25px 0;
+    font-style: normal;
+}
+
+.info>p {
+    margin: 10px 0 ;
+}
